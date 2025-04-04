@@ -16,8 +16,8 @@ const nextConfig = {
       },
     },
   ],
+  distDir: 'out',
+  output: 'standalone',
 };
 
-module.exports = {
-  distDir: 'out',
-};
+module.exports = nextConfig;
